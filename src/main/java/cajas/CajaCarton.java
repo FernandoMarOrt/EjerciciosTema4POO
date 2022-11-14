@@ -16,16 +16,15 @@ public class CajaCarton {
         this.peso = peso;
     }
 
-    public CajaCarton() {
-
-    }
-//   public abrir() {
-//       
-//   }
-//   
-//   public cerrar() {
-//       
-//   }
+   //METODOS ABRIR Y CERRAR 
+   public void abrir() {
+       
+   }
+   
+   public void cerrar() {
+       
+   }
+    
 
     //METODOS GETTERS Y SETTERS
     public double getAncho() {
@@ -59,6 +58,7 @@ public class CajaCarton {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+
 
     //Genero el metodo polimorfico toString
     @Override
